@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.unsplash.com/photo-1547131303-543b40443e96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=897&q=80")
+      no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.4em;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  padding-left: 20px;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  margin-left: 0.5em;
+  color: #ff7373;
+  font-weight: bolder;
+}
+
+.nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  padding-right: 20px;
+  margin-right: 0.5em;
+  color: #ff7373;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 25%;
+}
+
+h1 {
+  color: #ff7373;
+}
+
+p {
+  color: #73deff;
+  margin: 1em 3em;
+  font-size: 1.2em;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+button {
+  width: 45%;
+  height: 50px;
+  font-size: 1.5em;
+  margin: 0;
+  border-radius: 25px;
+  border: none;
+  letter-spacing: 3px;
+}
+
+/* https://images.unsplash.com/photo-1547131303-543b40443e96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=897&q=80
+ */
